@@ -1,0 +1,10 @@
+.allItems{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100px;
+}
+.spinner {
+    display: flex;
+    justify-content: center;
+}
