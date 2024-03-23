@@ -1,5 +1,5 @@
 # ZuelFrend  
-#### (1.0.6)
+#### (1.0.4)
 
 ## Multiplica y vencerás!
 
@@ -35,6 +35,7 @@ Brindamos un sistema de apoyo para los profesores y alumnos de todo el mundo, se
       total: getTotalPrice()
     }
   ```
+ - Luego, se trabaja con ello a partir de herramientas como Firestore, mediante colecciones y documentos.
 
 ### IMPORTANTE: Credenciales a configurar del proyecto
 
