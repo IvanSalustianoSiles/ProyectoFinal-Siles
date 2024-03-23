@@ -1,4 +1,4 @@
-export { CartProduct } from './cartProduct/cartProduct';
+export { CartProduct } from "./cartProduct/CartProduct.jsx"
 export { ItemCount } from './itemCount/ItemCount';
 export { CartWidget } from './CartWidget';
 export { Item } from './item/Item';
