@@ -1,3 +1,7 @@
-.disabled {
-    display: none;
+.button2 {
+    background-color: #630B0A;
+    color: white;
+    border-radius: 0px 8px 8px 0px;
+    border: 0px;
+    padding: 15px;
 }

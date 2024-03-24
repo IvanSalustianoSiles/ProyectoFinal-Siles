@@ -18,4 +18,11 @@
     font-weight: bolder;
     background-color: #9B1B01;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1, 1,);
+    transition: transform 0.2s;
+}
+.detailButton:hover{
+    transform: scale(1.1,1.1);
+    color: #630B0A;
+    background-color: #DA8F34;
 }

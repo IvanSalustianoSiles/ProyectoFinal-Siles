@@ -1,0 +1,10 @@
+.cartNumber {
+    color: white;
+    background-color: rgb(213, 98, 27);
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bolder;
+}
+.cartSymbol {
+    width: 30px;
+}

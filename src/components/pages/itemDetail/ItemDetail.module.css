@@ -1,4 +1,6 @@
 .imgItem {
+    display: flex;
+    margin-top: 10%;
     width: 300px;
     border: solid #9B1B01 3px;
     border-radius: 10px;
@@ -7,4 +9,47 @@
 .spinner {
     display: flex;
     justify-content: center;
+    min-height: 100px;
 }
+.divDetailContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.divImage{
+    display: flex;
+    flex-direction: column;
+}
+.divDescAndCat{
+    display: flex;
+    flex-direction: column;
+}
+.divDescription{
+    border-left: double black 3px;
+    padding-left: 15px;
+}
+.buttonClass {
+    display: flex;
+    justify-self: center;
+    color: white;
+    background-color: #630B0A;
+    text-decoration: underline #630B0A;
+    padding: 8px 10px 8px 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 0px;
+    font-style: italic;
+    transform: scale(1, 1,);
+    transition: transform 0.2s;
+}
+.buttonClass:hover {
+    transform: scale(1.1, 1.1);
+    color: #630B0A;
+    text-decoration: underline #DA8F34;
+    background-color: #DA8F34;
+}
+.grid {
+    display: grid;
+}
+

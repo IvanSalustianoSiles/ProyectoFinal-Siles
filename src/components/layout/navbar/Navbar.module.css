@@ -1,3 +1,67 @@
-.categories button {
-    color: blue;
+.backgroundUl button {
+    background-color: #630B0A;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    border: 0px;
+    transform: scale(1, 1,);
+    transition: transform 0.2s;
+    transition: all 0.2s;
+    
+}
+.backgroundUl button:hover {
+    transform: scale(1.1, 1.1);
+    color: #630B0A;
+    background-color: rgb(195, 179, 179);
+}
+.backgroundUl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
+    background-color: #DA8F34;
+}
+
+.logoHeader {
+    display: block;
+    justify-self: center;
+    width: 350px;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+}
+.navbarDiv1{
+    display: flex;
+    flex-direction: column;
+}
+.searchButton {
+    background-color: #630B0A;
+    color: white;
+    border-radius: 0px 8px 8px 0px;
+    border: 0px;
+    padding: 15px;
+    transform: scale(1,1);
+    transition: transform 0.2s;
+}
+.searchButton:hover {
+    transform: scale(1.1,1.1);
+    color: #630B0A;
+    background-color: #DA8F34;
+}
+.navbarContainer {
+    width: 100vw;
+}
+.cartClass {
+    transform: scale(1, 1,);
+    transition: transform 0.2s;
+}
+.cartClass:hover {
+    transform: scale(1.1, 1.1);
+    color: #630B0A;
 }

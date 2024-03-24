@@ -1,10 +1,17 @@
 .allItems{
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: row;
-    height: 100px;
+    height: fit-content;
+    width: 100vw;
 }
 .spinner {
     display: flex;
     justify-content: center;
+    min-height: 100px;
+}
+.containerItems {
+    width: 100%;
+    height: fit-content;
 }

@@ -1,0 +1,19 @@
+.buttonCart{
+    color: rgb(248, 232, 215);
+    padding: 6px;
+    border-radius: 5px;
+    font-weight: bolder;
+    background-color: #630B0A;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transform: scale(1, 1,);
+    transition: transform 0.2s;
+    border: 0px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.buttonCart:hover{
+    transform: scale(1.1, 1.1);
+    color: #630B0A;
+    text-decoration: underline #DA8F34;
+    background-color: #DA8F34;
+}

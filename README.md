@@ -1,5 +1,5 @@
 # ZuelFrend  
-#### (1.0.4)
+#### (1.0.5)
 
 ## Multiplica y vencerás!
 
@@ -45,4 +45,3 @@ Brindamos un sistema de apoyo para los profesores y alumnos de todo el mundo, se
 - VITE_STORAGE_BUCKET
 - VITE_MESSAGING_SENDER_ID
 - VITE_APP_ID
-- VITE_MEASUREMENT_ID

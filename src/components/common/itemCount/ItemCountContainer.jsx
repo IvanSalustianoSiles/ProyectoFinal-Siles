@@ -4,7 +4,7 @@ import { useCount } from "../../../hooks/useCount";
 
 
 export const ItemCountContainer = ({stock, varQuantity, onAdd}) => {
-  const {count, increment, decrement} = useCount(stock, 0, varQuantity);
+  const {count, increment, decrement} = useCount(stock, 0, (varQuantity == 0 ? 1 : varQuantity));
   const countObject = {decrement, increment, count, stock, varQuantity, onAdd};
   return (
     <ItemCount {...countObject}/>

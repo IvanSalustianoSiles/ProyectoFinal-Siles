@@ -1,0 +1,11 @@
+body {
+    margin: 0px;
+    width: fit-content;
+}
+.disabled {
+    display: none;
+}
+.main {
+    height: 80%;
+}
+

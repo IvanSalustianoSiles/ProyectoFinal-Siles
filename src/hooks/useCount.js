@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-export const useCount = (max, min = 0, initial = 0) => {
+export const useCount = (max, min = 0, initial = 1) => {
     const [count, setCount] = useState(initial);
 
 

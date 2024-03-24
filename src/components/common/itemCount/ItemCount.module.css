@@ -1,0 +1,35 @@
+.counterButton {
+    color: white;
+    background-color: #630B0A;
+    text-decoration: underline #630B0A;
+    padding: 5px 9px 5px 9px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 0px;
+    font-style: italic;
+    transform: scale(1, 1,);
+    transition: transform 0.2s;
+}
+.counterButton:hover {
+    transform: scale(1.08, 1.08);
+    color: #630B0A;
+    text-decoration: underline #DA8F34;
+    background-color: #DA8F34;
+}
+.addButton {
+    color: white;
+    background-color: #630B0A;
+    text-decoration: underline #630B0A;
+    padding: 5px 9px 5px 9px;
+    border-radius: 8px;
+    font-size: 30px;
+    border: 0px;
+    transform: scale(1, 1,);
+    transition: transform 0.2s;
+}
+.addButton:hover{
+    transform: scale(1.1, 1.1);
+    color: #630B0A;
+    text-decoration: underline #DA8F34;
+    background-color: #DA8F34;
+}
