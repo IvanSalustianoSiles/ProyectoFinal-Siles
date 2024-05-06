@@ -1,7 +1,13 @@
 .button2 {
     background-color: #630B0A;
-    color: white;
     border-radius: 0px 8px 8px 0px;
     border: 0px;
     padding: 15px;
+    transform: scale(1,1);
+    transition: transform 0.2s;
+}
+.button2:hover{
+    background-color: #DA8F34;
+    transform: scale(1.1,1.1);
+
 }

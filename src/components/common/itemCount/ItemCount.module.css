@@ -10,6 +10,10 @@
     transform: scale(1, 1,);
     transition: transform 0.2s;
 }
+.spanCount {
+    padding-left: 4px;
+    padding-right: 4px;
+}
 .counterButton:hover {
     transform: scale(1.08, 1.08);
     color: #630B0A;

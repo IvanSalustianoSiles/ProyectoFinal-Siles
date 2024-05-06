@@ -32,7 +32,7 @@ export const ItemDetailContainer = () => {
   }
   return (
     <>
-      {isLoading ? <div className={style.spinner}><PropagateLoader color="#9B1B01" size={30} speedMultiplier={1.2}/></div> : <ItemDetail {...item} varQuantity={varQuantity} onAdd={onAdd}/>}
+      {isLoading ? <div className={style.spinner}><PropagateLoader color="#630B0A" size={30} speedMultiplier={1.2}/></div> : <ItemDetail {...item} varQuantity={varQuantity} onAdd={onAdd}/>}
     </>
   )
 }

@@ -3,7 +3,8 @@ import { Link } from "react-router-dom"
 import { useState } from "react"
 import { useWordStandard } from "../../../hooks/useWordStandard"
 import style from "./SearchEngine.module.css"
-const {button2} = style;
+const {button2, searchButton, searchInput} = style;
+export {searchButton};
 export const SearchEngine = () => {
   const [title, setTitle] = useState(useWordStandard(JSON.parse(localStorage.getItem("title")) || "").fixedWord);
   const [inputValue, setInputValue] = useState(JSON.parse(localStorage.getItem("title")) || "");
@@ -28,7 +29,7 @@ export const SearchEngine = () => {
         <Link to={`/${title}`}>
           <button className={button2} onClick={searchProduct}><CiSearch color="white" size={22}/></button>
         </Link>
-        <input onChange={getTitle} value={inputValue ? inputValue : ""} id="searchInput" placeholder={inputPlaceHolder}/>
+        <input onChange={getTitle} value={inputValue ? inputValue : ""} className={searchInput} id="searchInput" placeholder={inputPlaceHolder}/>
       </form>
     </>
   )

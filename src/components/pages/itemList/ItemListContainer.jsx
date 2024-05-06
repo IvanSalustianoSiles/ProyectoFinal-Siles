@@ -58,7 +58,7 @@ export const ItemListContainer = () => {
 
   return (
     <>
-      {isLoading ? <div className={style.spinner}><PropagateLoader color="#9B1B01" size={30} speedMultiplier={1.2}/></div> : <ItemList products={products}/>}
+      {isLoading ? <div className={style.spinner}><PropagateLoader color="#630B0A" size={30} speedMultiplier={1.2}/></div> : <ItemList products={products}/>}
     </>
   )
 }

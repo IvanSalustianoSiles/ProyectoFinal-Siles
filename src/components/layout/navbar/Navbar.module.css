@@ -1,6 +1,6 @@
 .backgroundUl button {
     background-color: #630B0A;
-    color: white;
+    color: #DCDCDD;
     border-radius: 8px;
     padding: 20px;
     border: 0px;
@@ -9,10 +9,18 @@
     transition: all 0.2s;
     
 }
+.active {
+    width: 92578.2px;
+    height: 22880px;
+    color: #630B0A;
+    background-color: #DA8F34;
+    transform: scale(1,1);
+    transition: transform 0.2s;
+}
 .backgroundUl button:hover {
     transform: scale(1.1, 1.1);
     color: #630B0A;
-    background-color: rgb(195, 179, 179);
+    background-color: #DA8F34;
 }
 .backgroundUl {
     display: flex;
@@ -21,24 +29,47 @@
     width: 100%;
     height: fit-content;
     padding: 10px;
-    border-top: solid black 3px;
-    border-bottom: solid black 3px;
-    background-color: #DA8F34;
+    background-color: #630B0A;
 }
 
 .logoHeader {
     display: block;
     justify-self: center;
     width: 350px;
+    background-color: #630B0A;
+    border-radius: 0px 0px 5px 5px;
+    border-left: 8px solid #630B0A;
+    border-right: 8px solid #630B0A;
+    border-bottom: 4px solid #630B0A;
 }
 
 .logoContainer {
     display: flex;
     justify-content: center;
+    align-self: center;
+    width: fit-content;
+    transform: scale(1,1);
+    transition: transform 0.2s;
+}
+
+.logoContainer:hover {
+    transform: scale(1.05, 1.05);
+
 }
 .navbarDiv1{
     display: flex;
     flex-direction: column;
+}
+.navbarContainer {
+    width: 100vw;
+}
+.cartClass {
+    transform: scale(1, 1,);
+    transition: transform 0.2s;
+}
+.cartClass:hover {
+    transform: scale(1.1, 1.1);
+    color: #630B0A;
 }
 .searchButton {
     background-color: #630B0A;
@@ -53,15 +84,4 @@
     transform: scale(1.1,1.1);
     color: #630B0A;
     background-color: #DA8F34;
-}
-.navbarContainer {
-    width: 100vw;
-}
-.cartClass {
-    transform: scale(1, 1,);
-    transition: transform 0.2s;
-}
-.cartClass:hover {
-    transform: scale(1.1, 1.1);
-    color: #630B0A;
 }

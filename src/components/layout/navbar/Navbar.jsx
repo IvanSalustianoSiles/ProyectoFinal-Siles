@@ -12,16 +12,27 @@ export const Navbar = () => {
     firstSearchButton.classList.add("disabled");
     searchForm.classList.remove("disabled");
   }
+  let lastButton;
+  let aButtonIsClicked = false;
+  const turningChecked = (id) => {
+    lastButton = document.getElementsByClassName("active");
+    if (aButtonIsClicked) {
+      lastButton[0].classList.remove("active");
+    }
+    let myButton = document.getElementById(`${id}`);
+    myButton.classList.add("active");
+    aButtonIsClicked = true;  
+  }
   return (
     <div className={navbarContainer}>
       <div className={navbarDiv1}>
       <Link className={logoContainer} to="/">
-      <img src="https://i.imgur.com/h3cbOSX.jpeg" className={logoHeader} alt="logo1" />
+      <img src="../../../../multimedia/zuelfrendlogo.png" className={logoHeader} alt="logo1" />
       </Link>
       <ul className={backgroundUl}>
         {   
           links.map(({id, path, textButton}) => {
-            return <Link key={id} to={path}><button>{textButton}</button></Link>
+            return <Link key={id} to={path}><button onClick={() => turningChecked(id)} id={id}>{textButton}</button></Link>
           })
         }
         <Link className={cartClass} to="/cart"><CartWidget/></Link>

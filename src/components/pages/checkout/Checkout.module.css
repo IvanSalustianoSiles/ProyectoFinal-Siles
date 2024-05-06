@@ -31,3 +31,31 @@
     align-items: center;
     flex-wrap: wrap;
 }
+.divForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+.divForm form {
+    border: #630B0A solid 3px;
+    border-radius: 10px;
+}
+.divForm form .first {
+    border-radius: 10px 10px 0px 0px;
+    border: 0px;
+}
+.divForm form .last {
+    border-radius: 0px 0px 6px 6px;
+    border: 0px;
+    background-color: #630B0A;
+    color: white;
+    transition: color;
+}
+.divForm form .last:hover {
+    color: #DA8F34;
+}
+.divForm form input {
+    border-right: 0px;
+    border-left: 0px;
+}
