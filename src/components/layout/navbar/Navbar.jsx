@@ -27,7 +27,7 @@ export const Navbar = () => {
     <div className={navbarContainer}>
       <div className={navbarDiv1}>
       <Link className={logoContainer} to="/">
-      <img src="../../../../multimedia/zuelfrendlogo.png" className={logoHeader} alt="logo1" />
+      <img src="https://i.imgur.com/Lva8yRT.png" className={logoHeader} alt="logo1" />
       </Link>
       <ul className={backgroundUl}>
         {   
